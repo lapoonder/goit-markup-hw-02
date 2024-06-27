@@ -29,7 +29,7 @@ ul li {
 }
 
 .nav-link {
-  color: #434455;
+  font-weight: 500;
 }
 
 .nav-link:hover,
@@ -37,9 +37,19 @@ ul li {
   color: #404bbf;
 }
 
+.mail-address {
+  color: #434455;
+  font-style: normal;
+}
+
 .mail-address:hover,
 .mail-address:focus {
   color: #404bbf;
+}
+
+.contact-tel {
+  color: #434455;
+  font-style: normal;
 }
 
 .contact-tel:hover,
