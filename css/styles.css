@@ -2,8 +2,9 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: #434455;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 a {
@@ -19,13 +20,14 @@ ul li {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .color-text-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-link {
@@ -37,23 +39,17 @@ ul li {
   color: #404bbf;
 }
 
-.mail-address {
-  color: #434455;
+address {
   font-style: normal;
-}
-
-.mail-address:hover,
-.mail-address:focus {
-  color: #404bbf;
-}
-
-.contact-tel {
   color: #434455;
-  font-style: normal;
 }
 
-.contact-tel:hover,
-.contact-tel:focus {
+.contact {
+  color: #434455;
+}
+
+.contact:hover,
+.contact:focus {
   color: #404bbf;
 }
 
@@ -64,25 +60,25 @@ ul li {
 .main-header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   text-align: center;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 .header-section {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .order-service-button {
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
-  border: none;
   border-color: #4d5ae5;
-  border-radius: 4px;
   color: #ffffff;
   font-weight: 500;
   line-height: 1.5;
@@ -93,8 +89,6 @@ ul li {
 .order-service-button:hover,
 .order-service-button:focus {
   background-color: #404bbf;
-  width: 170px;
-  height: 51px;
   border-color: #404bbf;
 }
 
@@ -102,8 +96,6 @@ ul li {
   background-color: #404bbf;
   font-weight: 600;
   line-height: 1.171875;
-  width: 169px;
-  height: 56px;
   border-color: #404bbf;
 }
 
@@ -115,10 +107,12 @@ ul li {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
-.list-text {
-  color: #434455;
+.team-card {
+  background-color: #ffffff;
 }
 
 .our-team-section .list-header {
